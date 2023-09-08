@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Portafolio, Edwin Andrés Estrada Muñoz, HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edwin Estrada (Portafolio)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="img/logoeex.png" type="imagen/logo" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Raleway+Dots&family=Raleway:wght@100&family=Roboto&family=Sofia&family=Trocchi&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!--Esta parte es de la barra de navegación-->
+    <header class="principal">
+      <div class="container-nav">
+        <nav class="navbar" role="navigation">
+          <img
+            src="img/encabe.jpg"
+            width="210px"
+            height="65px"
+            alt="Logotipo-Edwin"
+            title="Logotipo Portafolio Edwin"/>
+          <ul class="nav-links">
+            <li><a href="#index" rel="index">Home</a></li>
+            <li><a href="#about" rel="about">About</a></li>
+            <li><a href="#jobs" rel="jobs">Jobs</a></li>
+            <li><a href="#contact" rel="contac">Contact</a></li>
+          </ul>
+          <button class="button-menu-toggle"><span1>&#9776;</span1></button>
+        </nav>
+        
+      </div>
+
+      <!--Esta parte es del index-->
+      <div id="index" class="principal_container container">
+        <div class="principal_texts">
+          <h1 class="principal_title">
+            <img src="img/signoabrir.png" width="65px" height="90px"/>
+            Hello, I'm <br /><span style="color: #1bf7de">Edwin Estrada</span>
+            <img src="img/signocerrar.png" width="65px" height="90px"/>
+          </h1>
+          <p class="principal_paragraph">I'm a Front-End web developer</p>
+          <a href="#" class="principal_nave">Download CV</a>
+        </div>
+        <img src="img/logoee.png" class="principal_img" />
+      </div>
+    </header>
+
+    <main>
+      <!--Esta parte es del about-->
+      <section id="about" class="myperson container">
+        <h2 class="title">About</h2>
+        <div>
+          <img src="img/DSC_0955xx.jpg" class="myperson_img" />
+          <h2 class="myperson_name">Edwin Andrés Estrada Muñoz</h2>
+          <p class="myperson_tag">
+            HTML5, CSS3 and JavaScript Student, Front-End Developer
+          </p>
+          <p class="myperson_paragraph">
+            I am a creative and detail oriented developer. I am passionate about
+            creating websites and web applications that are attractive and easy
+            to use. I am also a good communicator and work well with clients to
+            understand their needs and meet their expectations. In my portfolio,
+            you can see some of my most recent work. These projects include
+            corporate websites, e-commerce websites. You can also see some of my
+            skills and experience in detail. If you are looking for an
+            experienced and talented web developer, feel free to contact me. I'd
+            be happy to talk more about your needs and how I can help you..<br />
+            <span2 style="color: #1bf7de">Let's do something special.</span2>
+          </p>
+        </div>
+      </section>
+
+      <!--Librería Bootstrap-->
+      <div class="myperson_tag">
+        <button class="btn btn-primary" style="background-color: #29d8c4; margin-left: 30px;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions text-center">know more about me</button>
+      </div>
+
+      <div class="offcanvas offcanvas-start" style="background-color: #a19f9f" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header">
+          <img src="img/man-avatar.jpg" width="150px" height="150px" style="border-radius: 90px;">
+          <h5 class="offcanvas-title text-center" id="offcanvasWithBothOptionsLabel"><strong>HTML5, CSS3 and JavaScript Student, Front-End Developer</strong></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body text-center">
+          <p><strong>I am a passionate web developer with a focus on creating engaging and functional online experiences. My love of programming started years ago and ever since I have been dedicated to honing my skills in HTML, CSS and JavaScript. I pride myself on my ability to transform ideas into websites and web applications that not only look great, but also deliver an exceptional user experience.
+
+            My focus is responsive web design, ensuring that my creations adapt perfectly to devices of different sizes and screens. I am always interested in staying up to date with the latest trends and technologies in the world of web development to keep my projects at the forefront of innovation.
+            
+            I am an effective communicator and love collaborating with clients and teams to bring their visions to digital life. I am always willing to take on new challenges and learn new technologies. If you are looking for a creative and committed web developer, I will be happy to be a part of your project and help you achieve your online goals.</strong></p>
+        </div>
+        <div class="footer_social">
+          <a href="https://www.facebook.com/?locale=es_LA" class="footer_link">
+            <img src="img/facebook.svg" class="footer_icon" width="30px" height="30px"/>
+          </a>
+          <a href="https://www.instagram.com/" class="footer_link">
+            <img src="img/instagram.svg" class="footer_icon" width="30px" height="30px"/>
+          </a>
+        </div>
+      </div>
+
+      <!--Esta parte es del portfolio-->
+      <section id="jobs" class="portafolio">
+        <h2 class="title">Jobs</h2>
+
+        <div class="contenedor">
+          
+          <div class="image-container" onclick="expandImage(this)">
+            <img src="img/img1.jpg" alt="Imagen 1">
+          </div>
+          <div class="image-container" onclick="expandImage(this)">
+            <img src="img/img2.jpg" alt="Imagen 2">
+          </div>
+          <div class="image-container" onclick="expandImage(this)">
+            <img src="img/img3.jpg" alt="Imagen 3">
+          </div>
+          <div class="image-container" onclick="expandImage(this)">
+            <img src="img/img4.jpg" alt="Imagen 3">
+          </div>
+
+          <div id="overlay" onclick="closeImage()">
+            <img id="overlay-image" src="" alt="Imagen Ampliada">
+          </div>
+       
+        </div>
+      </section>
+    </main>
+
+    <!--Esta parte es del footer(pie de página)-->
+    <footer id="contact" class="footer">
+      <div class="footer_container container">
+        <div class="footer_contact">
+
+          <div class="footer_texts">
+            <h2 class="title">Contact</h2>
+            <p class="footer_msm">
+              If you have any questions, you can contact me on any of my social
+              networks
+            </p>
+            <p class="footer_msm">
+              Do you have any questions or want to work with us?
+            </p>
+
+            <div class="footer_social">
+              <a href="https://www.linkedin.com/in/edwin-andr%C3%A9s-estrada-mu%C3%B1oz-086a90266/" class="footer_link">
+                <img src="img/bxl-linkedin.svg" class="footer_icon" />
+              </a>
+              <a href="https://github.com/" class="footer_link">
+                <img src="img/bxl-github.svg" class="footer_icon" />
+              </a>
+              <a href="https://discord.com/channels/1139024770088833025/1139043067689705542" class="footer_link">
+                <img src="img/bxl-discord-alt.svg" class="footer_icon" />
+              </a>
+            </div>
+          </div>
+
+          <!--part of the form-->  
+          <form method="post" name="forma1">
+            <input type="text" name="nombre" id="nombre" placeholder="Name">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <br>
+
+            <label for="service">what service do you need?</label>
+            <br></br>
+            <textarea name="service" id="service" cols="30" rows="10" placeholder="Enter your message..."></textarea>
+            <input type="submit" value="Submit">
+          </form>
+          
+        </div>
+
+        <p class="footer_copyright">website created by &copy; Edwin Estrada:</p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
+
+
+
