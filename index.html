@@ -43,9 +43,9 @@
             <img src="img/signocerrar.png" width="65px" height="90px"/>
           </h1>
           <p class="principal_paragraph">I'm a Front-End web developer</p>
-          <a href="#" class="principal_nave">Download CV</a>
+          <a href="#" class="principal_nave" onclick="alert('Aún no hay documentos asociados')">Download CV</a>
         </div>
-        <img src="img/logoee.png" class="principal_img" />
+        <img id="logotipo" src="img/logoee.png" class="principal_img" alt="logotipo" />
       </div>
     </header>
 
@@ -166,7 +166,7 @@
             <label for="service">what service do you need?</label>
             <br></br>
             <textarea name="service" id="service" cols="30" rows="10" placeholder="Enter your message..."></textarea>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" onclick="alert('El mensaje no se enviará, no se ha vinculado el servidor')">
           </form>
           
         </div>
